@@ -18,7 +18,7 @@ class UsersState extends Equatable {
   });
 
   int get count => items.length;
-  int get nextPage => page + 1;
+  int get nextPage => page + 4;
 
   bool get isFirstPage => page == 1;
   bool get isLoadingFirst => isLoading && isFirstPage;
